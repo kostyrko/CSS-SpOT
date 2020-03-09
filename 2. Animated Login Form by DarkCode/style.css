@@ -1,0 +1,89 @@
+:root {
+  --green: rgb(93, 138, 25);
+  --background: rgb(70, 70, 211);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: var(--background);
+  font-family: "Poppins", sans-serif;
+}
+
+.box {
+  width: 300px;
+  padding: 40px;
+  /* The element is positioned 
+  relative to its parent */
+  position: absolute;
+  /* moving its top left CORNER
+  to the center of its PARENT */
+  top: 50%;
+  left: 50%;
+  /* moving the element back leftwards and 
+  upwards by half of ITS width and height */
+  transform: translate(-50%, -50%);
+  background: rgb(1, 1, 99);
+  text-align: center;
+}
+
+.box h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+
+/* only the input of text type as well as
+only the input of password type */
+.box input[type="text"],
+.box input[type="password"] {
+  font-size: 1.1rem;
+  border: 0;
+  background: none;
+  /* block element - starts on a new line, 
+  and takes up the whole width */
+  display: block;
+  /* horizontally 20px and 
+  vertically center the element within a container */
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid var(--background);
+  /* adding space around text */
+  padding: 14px 10px;
+  /* removing the default outline changing color while focused */
+  outline: none;
+  color: #fff;
+  /* making round angles */
+  border-radius: 25px;
+  /* adding a popping up effect
+  everything above becoming alive */
+  transition: 0.25s;
+}
+
+/* while focused */
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+  width: 70%;
+  border-color: var(--green);
+}
+
+.box input[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid var(--green);
+  padding: 14px 40px;
+  outline: none;
+  color: #fff;
+  border-radius: 25px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.box input[type="submit"]:hover {
+  background: var(--green);
+}
