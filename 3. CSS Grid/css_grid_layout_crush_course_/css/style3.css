@@ -1,0 +1,51 @@
+.container{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  gap: 1em;
+    /* putts the element at the start (could be center) of its column
+    the default is stretch */
+/* justify-items: start; */
+    /* putts the element at the start horizontally/a the top (start) */
+/* align-items: start; */
+}
+
+.container > div {
+  background: gray;
+  padding: 1em;
+}
+
+.container > div:nth-child(odd) {
+  background: lightgray;
+}
+
+.box1 {
+/* align-self: start; */
+  /* concept of lines which form a grid */
+  /* span this box from line 1 to 3 */
+  /* in a horizontal fashion */
+  /* line forming a grid starts at the left of every column 
+  and on the top of the row */
+  grid-column: 1/3;
+  /* vertically */
+  grid-row: 1/3;
+}
+
+.box2 {
+/* align-self: end; */
+  grid-column: 3;
+  grid-row: 1/3;
+}
+
+.box3 {
+  /* set the element to end */
+/* justify-self: end; */
+  grid-column: 2/4;
+  grid-row: 3;
+}
+
+/* overlapping of boxes */
+.box4 {
+  grid-column: 1;
+  grid-row: 2/4;
+}

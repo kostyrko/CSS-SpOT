@@ -1,0 +1,28 @@
+.container {
+  display: grid;
+    /* defining the width of the columns */
+    /* def. 2 col -> 1str (main) col 70% and 2nd (side-bar) 30%
+    of the parent element width */
+    /* this pattern is going to multiply with new divs */
+    /* every other div will be another row */
+    /* to add anther column just add another value */
+  grid-template-columns: 70% 30%;
+    /* gap between columns */
+  /* column-gap: 1em; */
+    /* gap between rows */
+  /* row-gap: 1em ;
+  adding both */
+  gap: 1em;
+}
+
+
+/* div in this container */
+.container > div {
+  background: gray;
+  padding: 1em;
+}
+
+/* every odd element -> here every odd div */
+.container > div:nth-child(odd) {
+  background: lightgray;
+}
