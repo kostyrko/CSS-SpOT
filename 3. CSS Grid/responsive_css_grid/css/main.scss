@@ -1,0 +1,66 @@
+// create array of colors -> variable
+$colors: rgb(221, 221, 221), rgb(206, 206, 206), rgb(151, 151, 151), rgb(196, 196, 196), rgb(204, 204, 204), rgb(170, 170, 170);
+
+
+body, html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+
+title {
+  margin: 5rem;
+}
+
+// grid-based layout system, with rows and columns,
+// making it easier to design web pages
+//  without having to use floats and positioning
+main {
+  display: grid;
+  // repeat the same grid element 6 times, 200px each
+  // grid-template-columns: repeat(6, 200px);
+  // auto-fit grid, minimum 19 rem and max 1fr - fraction unit
+  // auto-fit -> stretch to available scale
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  
+  // generate gaps
+  grid-gap:0.5rem;
+
+  cursor: pointer;
+
+  // image inside of the card set for 100% of the parent
+  .card {
+
+    transition: transform 1s;
+      
+      // for each i from 1 to 6
+    @for $i from 1 through 6 {
+    &:nth-of-type(#{$i}) {
+      // iterate through color and assign to each grid
+        background: nth($colors, $i);
+        // one color and one grid
+      }
+    }
+
+
+      // while hovering will push up
+    &:hover {
+      transform: translateY(-10px);
+    }
+
+    img {
+          // as big as the parent
+        width: 100%;
+      }
+    .info {
+        padding: 1rem;
+    }
+    .description {
+      color: gray
+    }
+  }
+}
