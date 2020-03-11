@@ -17,16 +17,18 @@ CSS - Small Online Tutorials
 
 3.2 [Responsive CSS Grid with NO MEDIA QUERIES!](https://www.youtube.com/watch?v=bam83Xv4VMA&feature=share) :point_right: [org. code](https://codepen.io/designcourse/pen/mYrxKr) Reading: [hankchizljaw.com](https://hankchizljaw.com/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/) & drafts.csswg.org - [CSS Grid Layout Module Level 1](https://drafts.csswg.org/css-grid/#auto-repeat) -> using [Sass](https://sass-lang.com/)
 
-## 4. Fonts
+## 4. Flexbox
 
-4.1 [Colorful Long Shadow Effect using css 3 & HTML](https://www.youtube.com/watch?v=2SNhhK23o5U) by :point_right: [Online web ustaad](https://www.youtube.com/channel/UC8xTHK97Ng__KZvGcO_K7CA)
+## 5. Fonts
 
-## 5. Buttons
+5.1 [Colorful Long Shadow Effect using css 3 & HTML](https://www.youtube.com/watch?v=2SNhhK23o5U) by :point_right: [Online web ustaad](https://www.youtube.com/channel/UC8xTHK97Ng__KZvGcO_K7CA)
 
-5.1 [CSS 3 Toggle Switch Button - On / Off Button](https://www.youtube.com/watch?v=DusAdAG0ing) by :point_right: [Online web ustaad](https://www.youtube.com/channel/UC8xTHK97Ng__KZvGcO_K7CA)
+## 6. Buttons
 
-5.2 [Neon Light Button Animation Effects on Hover | CSS Snake Border](https://www.youtube.com/watch?v=ex7jGbyFgpA) by :point_right: [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog)
+6.1 [CSS 3 Toggle Switch Button - On / Off Button](https://www.youtube.com/watch?v=DusAdAG0ing) by :point_right: [Online web ustaad](https://www.youtube.com/channel/UC8xTHK97Ng__KZvGcO_K7CA)
 
-## 6. Images
+6.2 [Neon Light Button Animation Effects on Hover | CSS Snake Border](https://www.youtube.com/watch?v=ex7jGbyFgpA) by :point_right: [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog)
 
-6.1 [Image Hover Effect with Captions - HTML CSS](https://www.youtube.com/watch?v=gztHjm6pcQY) by :point_right: [Online web ustaad](https://www.youtube.com/channel/UC8xTHK97Ng__KZvGcO_K7CA)
+## 7. Images
+
+7.1 [Image Hover Effect with Captions - HTML CSS](https://www.youtube.com/watch?v=gztHjm6pcQY) by :point_right: [Online web ustaad](https://www.youtube.com/channel/UC8xTHK97Ng__KZvGcO_K7CA)
