@@ -1,9 +1,10 @@
+/* This design is long to compute and not responsive */
+
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
 
 body {
   padding: 0px;
   margin: 0px;
-  font-size: 10px;
   color: white;
   background: #291842;
 }
@@ -28,7 +29,7 @@ body {
 
 .second-line {
   margin: 0 auto;
-  font-size: 18rem;
+  font-size: 18em;
   max-width: 55rem;
   line-height: 14rem;
 }
