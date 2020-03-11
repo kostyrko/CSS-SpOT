@@ -5,6 +5,8 @@ CSS - Small Online Tutorials
 
 1.1 [Animated Responsive Navbar with CSS - Plus Other Useful Tricks](https://www.youtube.com/watch?v=biOMz4puGt8&feature=youtu.be) by [fireship](https://fireship.io/) --> org. repo here: [:octocat:](https://github.com/fireship-io/222-responsive-icon-nav-css)
 
+1.2 [Animated Elastic Sidebar Menu using HTML / CSS / JavaScript](https://www.youtube.com/watch?v=oR09LppW_PA) source code [under this link](https://drive.google.com/file/d/1wl48A1j7RJHb-f5S_cxmY60qi79MYvha/view) by :point_right: [Online web ustaad](https://www.youtube.com/channel/UC8xTHK97Ng__KZvGcO_K7CA)
+
 ## 2. Forms
 
 2.1 [Animated Login Form by DarkCode](https://www.youtube.com/watch?v=HV7DtH3J2PU&feature=share) --> no org repo
@@ -17,6 +19,14 @@ CSS - Small Online Tutorials
 
 ## 4. Fonts
 
+4.1 [Colorful Long Shadow Effect using css 3 & HTML](https://www.youtube.com/watch?v=2SNhhK23o5U) by :point_right: [Online web ustaad](https://www.youtube.com/channel/UC8xTHK97Ng__KZvGcO_K7CA)
+
 ## 5. Buttons
 
+5.1 [CSS 3 Toggle Switch Button - On / Off Button](https://www.youtube.com/watch?v=DusAdAG0ing) by :point_right: [Online web ustaad](https://www.youtube.com/channel/UC8xTHK97Ng__KZvGcO_K7CA)
+
+5.2 [Neon Light Button Animation Effects on Hover | CSS Snake Border](https://www.youtube.com/watch?v=ex7jGbyFgpA) by :point_right: [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog)
+
 ## 6. Images
+
+6.1 [Image Hover Effect with Captions - HTML CSS](https://www.youtube.com/watch?v=gztHjm6pcQY) by :point_right: [Online web ustaad](https://www.youtube.com/channel/UC8xTHK97Ng__KZvGcO_K7CA)
