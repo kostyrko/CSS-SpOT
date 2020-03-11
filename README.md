@@ -19,9 +19,13 @@ CSS - Small Online Tutorials
 
 ## 4. Flexbox
 
+4.1 [Flexbox Tutorial (CSS): Real Layout Examples](https://www.youtube.com/watch?v=k32voqQhODc) by [LearnWebCode](https://www.youtube.com/channel/UCHRp19HU7Y2LwfI0Ai6WAGQ)
+
 ## 5. Fonts
 
 5.1 [Colorful Long Shadow Effect using css 3 & HTML](https://www.youtube.com/watch?v=2SNhhK23o5U) by :point_right: [Online web ustaad](https://www.youtube.com/channel/UC8xTHK97Ng__KZvGcO_K7CA)
+
+5.2 [MetaFizzy Effect with Sass](https://css-tricks.com/metafizzy-effect-with-sass/) from [CSS-TRICKS](css-tricks.com)
 
 ## 6. Buttons
 
