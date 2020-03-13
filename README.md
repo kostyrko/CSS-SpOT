@@ -25,8 +25,6 @@ CSS - Small Online Tutorials
 
 5.1 [Colorful Long Shadow Effect using css 3 & HTML](https://www.youtube.com/watch?v=2SNhhK23o5U) by :point_right: [Online web ustaad](https://www.youtube.com/channel/UC8xTHK97Ng__KZvGcO_K7CA)
 
-5.2 [MetaFizzy Effect with Sass](https://css-tricks.com/metafizzy-effect-with-sass/) from [CSS-TRICKS](css-tricks.com)
-
 ## 6. Buttons
 
 6.1 [CSS 3 Toggle Switch Button - On / Off Button](https://www.youtube.com/watch?v=DusAdAG0ing) by :point_right: [Online web ustaad](https://www.youtube.com/channel/UC8xTHK97Ng__KZvGcO_K7CA)
