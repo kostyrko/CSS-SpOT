@@ -34,3 +34,5 @@ CSS - Small Online Tutorials
 ## 7. Images
 
 7.1 [Image Hover Effect with Captions - HTML CSS](https://www.youtube.com/watch?v=gztHjm6pcQY) by :point_right: [Online web ustaad](https://www.youtube.com/channel/UC8xTHK97Ng__KZvGcO_K7CA)
+
+7.2 [CSS 3 Profile Card Hover Effect - Web Design Tutorial](https://www.youtube.com/watch?v=iZRugEaasZ4&feature=share) by :point_right: [Online web ustaad](https://www.youtube.com/channel/UC8xTHK97Ng__KZvGcO_K7CA)
