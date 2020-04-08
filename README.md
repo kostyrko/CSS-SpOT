@@ -5,7 +5,7 @@ CSS - Small Online Tutorials
 
 1.1 [Animated Responsive Navbar with CSS - Plus Other Useful Tricks](https://www.youtube.com/watch?v=biOMz4puGt8&feature=youtu.be) by [fireship](https://fireship.io/) --> org. repo here: [:octocat:](https://github.com/fireship-io/222-responsive-icon-nav-css)
 
-1.2 [Animated Elastic Sidebar Menu using HTML / CSS / JavaScript](https://www.youtube.com/watch?v=oR09LppW_PA) source code [under this link](https://drive.google.com/file/d/1wl48A1j7RJHb-f5S_cxmY60qi79MYvha/view) by :point_right: [Online web ustaad](https://www.youtube.com/channel/UC8xTHK97Ng__KZvGcO_K7CA)
+1.2 [Responsive Menu With Media Queries (Checkbox Trick) - Using Only CSS3](https://www.youtube.com/watch?v=xMTs8tAapnQ)
 
 ## 2. Forms
 
