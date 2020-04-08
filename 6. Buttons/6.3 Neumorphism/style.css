@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: rgb(236, 235, 235);
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-list {
+  width: 100%;
+  max-width: 98rem;
+  margin: 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-item {
+  list-style: none;
+}
+
+.icon-link {
+  display: flex;
+  font-size: 3.6rem;
+  text-decoration: none;
+  color: rgb(214, 214, 214);
+  width: 10rem;
+  height: 10rem;
+  /* background-color: aqua; */
+  border-radius: 50%;
+  box-shadow: 1rem 1rem 2rem rgba(0,0,0,.1),
+              -1rem -1rem 2rem rgba(255,255,255,.5);
+}
+
+/* putting the font to the center */
+/* align content and justify content to to the center */
+.icon-link i {
+  margin: auto;
+}
+
+/* .icon-link:hover */
+.icon-link:focus {
+  box-shadow: 
+            inset 1rem 1rem 2rem rgba(0,0,0,.1),
+            inset  -1rem -1rem 2rem rgba(255,255,255,.5);
+}
