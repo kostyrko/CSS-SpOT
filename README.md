@@ -21,6 +21,8 @@ CSS - Small Online Tutorials
 
 4.1 [Flexbox Tutorial (CSS): Real Layout Examples](https://www.youtube.com/watch?v=k32voqQhODc) by [LearnWebCode](https://www.youtube.com/channel/UCHRp19HU7Y2LwfI0Ai6WAGQ)
 
+4.2 Simple centralized layout by: @kostyrko
+
 ## 5. Fonts
 
 5.1 [Colorful Long Shadow Effect using css 3 & HTML](https://www.youtube.com/watch?v=2SNhhK23o5U) by :point_right: [Online web ustaad](https://www.youtube.com/channel/UC8xTHK97Ng__KZvGcO_K7CA)
@@ -31,8 +33,14 @@ CSS - Small Online Tutorials
 
 6.2 [Neon Light Button Animation Effects on Hover | CSS Snake Border](https://www.youtube.com/watch?v=ex7jGbyFgpA) by :point_right: [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog)
 
+6.3 [Popular Web Design Trend in 2020: Neumorphism | Soft UI](https://www.youtube.com/watch?v=MVEQwgOiDXs&feature=youtu.be)
+
 ## 7. Images
 
 7.1 [Image Hover Effect with Captions - HTML CSS](https://www.youtube.com/watch?v=gztHjm6pcQY) by :point_right: [Online web ustaad](https://www.youtube.com/channel/UC8xTHK97Ng__KZvGcO_K7CA)
 
 7.2 [CSS 3 Profile Card Hover Effect - Web Design Tutorial](https://www.youtube.com/watch?v=iZRugEaasZ4&feature=share) by :point_right: [Online web ustaad](https://www.youtube.com/channel/UC8xTHK97Ng__KZvGcO_K7CA)
+
+## 8. Layout
+
+8.1 [CSS Theme Switcher by Reverse-Engineering Alligator.io](https://www.youtube.com/watch?v=rXuHGLzSmSE&feature=youtu.be) by [fireship](https://fireship.io/) --> org. repo here: [:octocat:](https://github.com/fireship-io/226-css-theme-togglers)
