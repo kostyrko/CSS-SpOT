@@ -7,6 +7,8 @@ CSS - Small Online Tutorials
 
 1.2 [Responsive Menu With Media Queries (Checkbox Trick) - Using Only CSS3](https://www.youtube.com/watch?v=xMTs8tAapnQ)/Hamburger Menu
 
+1.3 [Animated Hamburger Menu Tutorial - CSS Effects](https://www.youtube.com/watch?v=dIyVTjJAkLw)
+
 ## 2. Forms
 
 2.1 [Animated Login Form by DarkCode](https://www.youtube.com/watch?v=HV7DtH3J2PU&feature=share) --> no org repo
