@@ -5,11 +5,18 @@
 }
 
 body {
-  background: #272727;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* display: flex; */
+  /*justify-content: center;
+  align-items: center; */
   min-height: 100vh;
+}
+
+.nav {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  /* background-color: #eaeaea; */
 }
 
 .menu-btn {
@@ -21,7 +28,7 @@ body {
   height: 80px;
   cursor: pointer;
   /* transition: all .5s ease-in-out; */
-  border: 3px solid white;
+  /* border: 3px solid black; */
 }
 
 #toggle {
@@ -29,9 +36,10 @@ body {
 }
 
 .menu-btn__burger {
+  align-self: flex-end;
   width: 50px;
   height: 6px;
-  background: white;
+  background: black;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(255,101,47,.2);
   transition: all .5s ease-in-out;
@@ -45,7 +53,7 @@ body {
   position: absolute;
   width: 50px;
   height: 6px;
-  background: white;
+  background: black;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(255,101,47,.2);
   transition: all .5s ease-in-out;
@@ -83,21 +91,16 @@ input[type=checkbox]:checked ~ label > .menu-btn > .menu-btn__burger::after {
 .menu {
   text-align: center;
   width: 100%;
-  
-  /* display: none; */
+  display: none;
 }
 .menu a {
   display: block;
   border-bottom: 1px solid #eaeaea;
   margin: 0;
+  text-decoration: none;
+  color: black;
 }
 
-input[type=checkbox]:checked ~ .menu > a {
-  color: red;
-  display: none;
+input[type=checkbox]:checked ~ .menu {
+  display: block;
 }
-
-/* zrodla
-https://stackoverflow.com/questions/46673303/how-to-select-a-div-inside-another-element-when-a-checkbox-input-is-checked */
-
-/* https://developer.mozilla.org/en-US/docs/Web/CSS/:checked */
