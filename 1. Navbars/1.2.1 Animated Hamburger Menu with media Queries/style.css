@@ -14,11 +14,18 @@ body {
 .nav {
   width: 100vw;
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  /* background-color: #eaeaea; */
+  align-items: center;
+  justify-content: space-between;
+  background-color: #eaeaea;
+  position: sticky;
+  top: 0;
 }
 
+.logo{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 2rem;
+  margin-left: 5vw;
+}
 .menu-btn {
   display: flex;
   justify-content: center;
@@ -27,8 +34,7 @@ body {
   width: 80px;
   height: 80px;
   cursor: pointer;
-  /* transition: all .5s ease-in-out; */
-  /* border: 3px solid black; */
+  margin-right: 2vw;
 }
 
 #toggle {
@@ -36,7 +42,6 @@ body {
 }
 
 .menu-btn__burger {
-  align-self: flex-end;
   width: 50px;
   height: 6px;
   background: black;
@@ -95,6 +100,8 @@ input[type=checkbox]:checked ~ label > .menu-btn > .menu-btn__burger::after {
 }
 .menu a {
   display: block;
+  height: 10vh;
+  line-height: 10vh;
   border-bottom: 1px solid #eaeaea;
   margin: 0;
   text-decoration: none;
@@ -103,4 +110,11 @@ input[type=checkbox]:checked ~ label > .menu-btn > .menu-btn__burger::after {
 
 input[type=checkbox]:checked ~ .menu {
   display: block;
+  position: absolute;
+  top:80px;
+  background-color: white;
+}
+
+main {
+  height: 100vh;
 }
