@@ -7,7 +7,17 @@ CSS - Small Online Tutorials
 
 1.2 [Responsive Menu With Media Queries (Checkbox Trick) - Using Only CSS3](https://www.youtube.com/watch?v=xMTs8tAapnQ)/Hamburger Menu
 
+1.2.1 Animated Hamburger Menu wuth Media Queries by @kostyrko
+
 1.3 [Animated Hamburger Menu Tutorial - CSS Effects](https://www.youtube.com/watch?v=dIyVTjJAkLw)
+
+1.3.1 Animated Hamburger Menu - only CSS by @kostyrko
+
+1.4 [PURE CSS HAMBURGER MENU][https://www.youtube.com/watch?v=OFNubvyVug8] by [Web dev](https://www.youtube.com/channel/UCZc238wXqeN2M2uXQaY9MEw)
+
+1.5 [Sidebar Menu using HTML & CSS](https://www.youtube.com/watch?v=V0O4pY2xX10) by [CodingNepal](https://www.youtube.com/channel/UCk7xIEmd3MeyhIu2StLX5yA)
+
+1.6 [How To Make Drop Down Menu Using HTML And CSS | HTML Website Tutorials](https://www.youtube.com/watch?v=wHFflWvii3M&list=RDCMUCkjoHfkLEy7ZT4bA2myJ8xA&start_radio=1&t=1092) by [Easy Tutorials](https://www.youtube.com/channel/UCkjoHfkLEy7ZT4bA2myJ8xA)
 
 ## 2. Forms
 
