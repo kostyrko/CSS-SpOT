@@ -25,138 +25,157 @@ body {
   font-size: 2rem;
   margin-left: 5vw;
 }
-.menu-btn {
+
+.menu {
+  width: 30vw;
   display: flex;
-  justify-content: center;
-  align-content: center;
-  position: relative;
-  width: 80px;
-  height: 80px;
-  cursor: pointer;
-  margin-right: 2vw;
+  justify-content: space-around;
+}
+
+.menu a{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  height: 40px;
+  line-height: 20px;
+  margin: 5px 0 5px 0;
+}
+
+.menu a:hover {
+  border-bottom: 3px solid black;
 }
 
 #toggle {
   display: none;
 }
 
-.menu-btn__burger {
-  width: 50px;
-  height: 6px;
-  background: black;
-  border-radius: 5px;
-  /* box-shadow: 0 2px 5px rgba(255,101,47,.2); */
-  transition: all .5s ease-in-out;
-  align-self: center;
-}
-
-.menu-btn__burger::before,
-.menu-btn__burger::after {
-  content: '';
-  position: absolute;
-  width: 50px;
-  height: 6px;
-  background: black;
-  border-radius: 5px;
-  /* box-shadow: 0 2px 5px rgba(255,101,47,.2); */
-  transition: all .5s ease-in-out;
-}
-
-.menu-btn__burger::before {
-  transform: translateY(-16px);
-}
-
-.menu-btn__burger::after {
-  transform: translateY(16px);
-}
-
-/* Animate Hamburger */
-/* by id or by type i.e. #toggle:checked ~ .menu-btn__burger */
-input[type=checkbox]:checked ~ label > .menu-btn >.menu-btn__burger {
-  /* transform: translateX(-50px); */
-  background: transparent;
-  box-shadow: none;
-}
- /* like here by id */
-#toggle:checked ~ label > .menu-btn > .menu-btn__burger::before {
-  /* transform: rotate(45deg) translate(35px, -35px); */
-  transform: rotate(45deg);
-}
-
-input[type=checkbox]:checked ~ label > .menu-btn > .menu-btn__burger::after {
-  /* transform: rotate(-45deg) translate(35px, 35px); */
-  transform: rotate(-45deg);
-}
-
-/* Dropdown menu */
-.menu {
-  text-align: center;
-  width: 100%;
-  position: absolute;
-  top:80px;
-  display: none
-}
-.menu a {
-  display: block;
-  height: 10vh;
-  line-height: 10vh;
-  border-bottom: 1px solid #eaeaea;
-  margin: 0;
-  text-decoration: none;
-  color: black;
-}
-
-.menu a:first-of-type {
-  border-top: 1px solid #eaeaea;
-}
-
-/* Dropdown menu when checked*/
-input[type=checkbox]:checked ~ .menu {
-  display: block;
-  background-color: #f3f3f3;
-  /* optional */
-  /* opacity: 0.98; */
-}
-
-input[type=checkbox]:checked ~ .menu a:hover {
-  background-color: white;
-}
-
-/* set to non-visible all a */
-input[type=checkbox]:checked ~ .menu a {
-  opacity: 0;
-}
-
-input[type=checkbox]:checked ~ .menu a:nth-child(1) {
-  animation: animate 300ms ease-in-out forwards;
-  animation-delay: 100ms;
-}
-
-input[type=checkbox]:checked ~ .menu a:nth-child(2) {
-  animation: animate 300ms ease-in-out forwards;
-  animation-delay: 200ms;
-}
-
-input[type=checkbox]:checked ~ .menu a:nth-child(3) {
-  animation: animate 300ms ease-in-out forwards;
-  animation-delay: 300ms;
-}
-input[type=checkbox]:checked ~ .menu a:nth-child(4) {
-  animation: animate 300ms ease-in-out forwards;
-  animation-delay: 400ms;
-}
-
-@keyframes animate {
-  0%{
+@media (max-width: 944px) {
+  .menu-btn {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    margin-right: 2vw;
+  }
+  
+  .menu-btn__burger {
+    width: 50px;
+    height: 6px;
+    background: black;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+    align-self: center;
+  }
+  
+  .menu-btn__burger::before,
+  .menu-btn__burger::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 6px;
+    background: black;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+  }
+  
+  .menu-btn__burger::before {
+    transform: translateY(-16px);
+  }
+  
+  .menu-btn__burger::after {
+    transform: translateY(16px);
+  }
+  
+  /* Animate Hamburger */
+  /* by id or by type i.e. #toggle:checked ~ .menu-btn__burger */
+  input[type=checkbox]:checked ~ label > .menu-btn >.menu-btn__burger {
+    background: transparent;
+    box-shadow: none;
+  }
+   /* like here by id */
+  #toggle:checked ~ label > .menu-btn > .menu-btn__burger::before {
+    transform: rotate(45deg);
+  }
+  
+  input[type=checkbox]:checked ~ label > .menu-btn > .menu-btn__burger::after {
+  
+    transform: rotate(-45deg);
+  }
+  
+  /* Dropdown menu */
+  .menu {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top:80px;
+    display: none
+  }
+  .menu a {
+    display: block;
+    height: 10vh;
+    line-height: 10vh;
+    border-bottom: 1px solid #eaeaea;
+    margin: 0;
+  }
+  
+  .menu a:first-of-type {
+    border-top: 1px solid #eaeaea;
+  }
+  
+  /* Dropdown menu when checked*/
+  input[type=checkbox]:checked ~ .menu {
+    display: block;
+    background-color: #f3f3f3;
+    /* optional */
+    /* opacity: 0.98; */
+  }
+  
+  input[type=checkbox]:checked ~ .menu a:hover {
+    border-bottom: none;
+    background-color: white;
+  }
+  
+  /* set to non-visible all a */
+  input[type=checkbox]:checked ~ .menu a {
     opacity: 0;
   }
-  50%{
-    opacity: 0.5;
+  
+  input[type=checkbox]:checked ~ .menu a:nth-child(1) {
+    animation: animate 300ms ease-in-out forwards;
+    animation-delay: 100ms;
   }
-  100%{
-    opacity: 1;
+  
+  input[type=checkbox]:checked ~ .menu a:nth-child(2) {
+    animation: animate 300ms ease-in-out forwards;
+    animation-delay: 200ms;
+  }
+  
+  input[type=checkbox]:checked ~ .menu a:nth-child(3) {
+    animation: animate 300ms ease-in-out forwards;
+    animation-delay: 300ms;
+  }
+  input[type=checkbox]:checked ~ .menu a:nth-child(4) {
+    animation: animate 300ms ease-in-out forwards;
+    animation-delay: 400ms;
+  }
+  
+  @keyframes animate {
+    0%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 0.5;
+    }
+    100%{
+      opacity: 1;
+    }
   }
 }
+
+
 
 
 /* Main body element */
