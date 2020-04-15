@@ -94,10 +94,7 @@ input[type=checkbox]:checked ~ label > .menu-btn > .menu-btn__burger::after {
   width: 100%;
   position: absolute;
   top:80px;
-  /* add animation */
-  visibility: hidden;
-  opacity: 0;
-  transition: all 0.5s ease-in-out;
+  display: none
 }
 .menu a {
   display: block;
@@ -117,15 +114,49 @@ input[type=checkbox]:checked ~ label > .menu-btn > .menu-btn__burger::after {
 input[type=checkbox]:checked ~ .menu {
   display: block;
   background-color: #f3f3f3;
-  /* add animation */
-  visibility: visible;
-  opacity: 1;
+  /* optional */
+  /* opacity: 0.98; */
 }
 
 input[type=checkbox]:checked ~ .menu a:hover {
   background-color: white;
 }
 
+/* set to non-visible all a */
+input[type=checkbox]:checked ~ .menu a {
+  opacity: 0;
+}
+
+input[type=checkbox]:checked ~ .menu a:nth-child(1) {
+  animation: animate 300ms ease-in-out forwards;
+  animation-delay: 100ms;
+}
+
+input[type=checkbox]:checked ~ .menu a:nth-child(2) {
+  animation: animate 300ms ease-in-out forwards;
+  animation-delay: 200ms;
+}
+
+input[type=checkbox]:checked ~ .menu a:nth-child(3) {
+  animation: animate 300ms ease-in-out forwards;
+  animation-delay: 300ms;
+}
+input[type=checkbox]:checked ~ .menu a:nth-child(4) {
+  animation: animate 300ms ease-in-out forwards;
+  animation-delay: 400ms;
+}
+
+@keyframes animate {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 1;
+  }
+}
 
 
 /* Main body element */
