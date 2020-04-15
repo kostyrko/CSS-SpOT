@@ -13,7 +13,7 @@ CSS - Small Online Tutorials
 
 1.3.1 Animated Hamburger Menu - only CSS by @kostyrko
 
-1.4 [PURE CSS HAMBURGER MENU][https://www.youtube.com/watch?v=OFNubvyVug8] by [Web dev](https://www.youtube.com/channel/UCZc238wXqeN2M2uXQaY9MEw)
+1.4 [PURE CSS HAMBURGER MENU](https://www.youtube.com/watch?v=OFNubvyVug8) by [Web dev](https://www.youtube.com/channel/UCZc238wXqeN2M2uXQaY9MEw)
 
 1.5 [Sidebar Menu using HTML & CSS](https://www.youtube.com/watch?v=V0O4pY2xX10) by [CodingNepal](https://www.youtube.com/channel/UCk7xIEmd3MeyhIu2StLX5yA)
 
