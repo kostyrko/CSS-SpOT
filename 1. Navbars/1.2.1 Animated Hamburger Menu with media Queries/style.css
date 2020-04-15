@@ -9,6 +9,7 @@ body {
   /*justify-content: center;
   align-items: center; */
   min-height: 100vh;
+  font-family: monospace;
 }
 
 .nav {
@@ -16,7 +17,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #eaeaea;
+  background-color: #f3f3f3;
+  border-bottom: 1px solid #eaeaea;
   position: sticky;
   top: 0;
 }
@@ -46,7 +48,7 @@ body {
   height: 6px;
   background: black;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(255,101,47,.2);
+  /* box-shadow: 0 2px 5px rgba(255,101,47,.2); */
   transition: all .5s ease-in-out;
   align-self: center;
 }
@@ -60,7 +62,7 @@ body {
   height: 6px;
   background: black;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(255,101,47,.2);
+  /* box-shadow: 0 2px 5px rgba(255,101,47,.2); */
   transition: all .5s ease-in-out;
 }
 
@@ -108,13 +110,25 @@ input[type=checkbox]:checked ~ label > .menu-btn > .menu-btn__burger::after {
   color: black;
 }
 
+.menu a:first-of-type {
+  border-top: 1px solid #eaeaea;
+}
+
 input[type=checkbox]:checked ~ .menu {
   display: block;
   position: absolute;
   top:80px;
+  background-color: #f3f3f3;
+}
+
+input[type=checkbox]:checked ~ .menu a:hover {
   background-color: white;
 }
 
 main {
   height: 100vh;
+  background-color: rgb(234, 240, 240);
+  font-size: 1.5rem;
 }
+
+
