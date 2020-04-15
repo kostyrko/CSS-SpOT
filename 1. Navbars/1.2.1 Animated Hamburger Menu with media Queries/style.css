@@ -5,9 +5,6 @@
 }
 
 body {
-  /* display: flex; */
-  /*justify-content: center;
-  align-items: center; */
   min-height: 100vh;
   font-family: monospace;
 }
@@ -53,7 +50,6 @@ body {
   align-self: center;
 }
 
-
 .menu-btn__burger::before,
 .menu-btn__burger::after {
   content: '';
@@ -74,11 +70,8 @@ body {
   transform: translateY(16px);
 }
 
-/* Animation */
-/* by id or by type */
-
-/* #toggle:checked ~ .menu-btn__burger */
-/* OR */
+/* Animate Hamburger */
+/* by id or by type i.e. #toggle:checked ~ .menu-btn__burger */
 input[type=checkbox]:checked ~ label > .menu-btn >.menu-btn__burger {
   /* transform: translateX(-50px); */
   background: transparent;
@@ -95,10 +88,16 @@ input[type=checkbox]:checked ~ label > .menu-btn > .menu-btn__burger::after {
   transform: rotate(-45deg);
 }
 
+/* Dropdown menu */
 .menu {
   text-align: center;
   width: 100%;
-  display: none;
+  position: absolute;
+  top:80px;
+  /* add animation */
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
 }
 .menu a {
   display: block;
@@ -114,17 +113,22 @@ input[type=checkbox]:checked ~ label > .menu-btn > .menu-btn__burger::after {
   border-top: 1px solid #eaeaea;
 }
 
+/* Dropdown menu when checked*/
 input[type=checkbox]:checked ~ .menu {
   display: block;
-  position: absolute;
-  top:80px;
   background-color: #f3f3f3;
+  /* add animation */
+  visibility: visible;
+  opacity: 1;
 }
 
 input[type=checkbox]:checked ~ .menu a:hover {
   background-color: white;
 }
 
+
+
+/* Main body element */
 main {
   height: 100vh;
   background-color: rgb(234, 240, 240);
