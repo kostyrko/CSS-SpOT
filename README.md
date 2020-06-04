@@ -1,6 +1,8 @@
 # CSS-SpOT
 CSS - Small Online Tutorials
 
+#### Links will redirect You to to org. repos/sources/tutorials
+
 ## 1. Navbars
 
 1.1 [Animated Responsive Navbar with CSS - Plus Other Useful Tricks](https://www.youtube.com/watch?v=biOMz4puGt8&feature=youtu.be) by [fireship](https://fireship.io/) --> org. repo here: [:octocat:](https://github.com/fireship-io/222-responsive-icon-nav-css)
