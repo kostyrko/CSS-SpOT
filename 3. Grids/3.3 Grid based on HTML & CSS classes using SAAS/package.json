@@ -1,0 +1,19 @@
+{
+  "name": "cl_bootcamp_dzien2",
+  "version": "1.0.0",
+  "description": "Coders Lab",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MK",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-jshint": "^2.1.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "jshint": "^2.11.1",
+    "node-sass": "^4.14.1"
+  }
+}

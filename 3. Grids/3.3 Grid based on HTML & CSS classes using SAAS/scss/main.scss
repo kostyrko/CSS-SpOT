@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+
+header {
+  margin-bottom: 25px;
+  h2 {
+    text-align: center;
+  }
+}
+
+/* MAIN */
+
+%clearfix {
+  &::before, &::after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+}
+
+@mixin grid($cols) {
+  [class*="col-"] {
+    float: left;
+    min-height: 1px;
+  }
+  @for $i from 1 through $cols {
+    .col-#{$i} {
+      width: (100% / $cols) * $i;
+    }
+  }
+}
+
+
+.box {
+  background-color: gray;
+  text-align: center;
+  border: 1px solid;
+}
+
+$gutter: 10px;
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  .row {
+    @extend %clearfix;
+    height: 60vh;
+    border: 1px solid green;
+    [class*="col-"] {
+      float: left;
+      min-width: 1px;
+      padding-left: $gutter;
+      padding-right: $gutter;
+    }
+    @include grid(12);
+  }
+}
+
+.col-6 {
+  .box {
+    height: 60vh;
+  }
+}
+
+.col-3:first-of-type {
+  // border: 1px solid red;
+  .box {
+    margin-bottom: 1rem;
+    padding: 10px;
+  }
+  .box:first-of-type {
+    margin-top: 0.5rem;
+  }
+}
+
+.col-3:last-of-type {
+  .box {
+    height: 60vh;
+  }
+}
+
+/* FOOTER */
+
+.row:last-of-type {
+  margin-top: 25px;
+}
