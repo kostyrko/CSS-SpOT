@@ -1,0 +1,44 @@
+
+@mixin grid($cols) {
+  @media screen and (min-width: 500px) {
+    display: flex;
+    flex-wrap: wrap;
+    @for $i from 1 through $cols {
+      .col-sm-#{$i} {
+        flex: 0 0 (100% / $cols) * $i;
+        // background-color: darken($primary-red, $i * 5)
+      }
+    }
+    @for $i from 1 through $cols {
+      .col-#{$i} {
+        flex: 0 0 (100% / $cols) * $i;
+      }
+    }
+  }
+  @media screen and (min-width: 767px) {
+    display: flex;
+    @for $i from 1 through $cols {
+      .col-md-#{$i} {
+        flex: 0 0 (100% / $cols) * $i;
+      }
+    }
+  }
+}
+
+@mixin bigger-darker($cols){
+  @for $i from 1 through $cols {
+    .col-md-#{$i} {
+      background-color: darken($primary-red, $i * 5)
+    }
+  }
+  @for $i from 1 through $cols {
+    .col-#{$i} {
+      background-color: darken($primary-red, $i * 5)
+    }
+  }
+}
+
+// for
+// [class*="col-"]{
+//   background-color: $primary-red;
+// }
