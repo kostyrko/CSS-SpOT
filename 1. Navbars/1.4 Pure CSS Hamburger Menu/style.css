@@ -89,7 +89,7 @@ label input:checked + .menu + ul {
   opacity: 1;
 }
 
-label ul {
+/* label ul {
   z-index: 200;
   position: absolute;
   left: 50%;
@@ -97,9 +97,9 @@ label ul {
   transform: translate(-50%, -50%);
   opacity: 0;
   transition: 0.5s 0s ease-in-out;
-}
+} */
 
-label a {
+/* label a {
   margin-bottom: 1em;
   font-size: 18px;
   display: block;
@@ -117,4 +117,4 @@ label a:hover {
   background-color: teal;
   color: #fff;
   letter-spacing: 3px;
-}
+} */
